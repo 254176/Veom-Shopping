@@ -1,4 +1,5 @@
-#Mongodb deployment
+#Mongodb deployment:
+
 Purpose: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format. It's commonly used in web development to store and manage data.
 Installation: The installation process involves downloading and installing the MongoDB server on your machine. Depending on your operating system, the steps might vary.
 You can refer to the MongoDB official documentation for detailed instructions.
