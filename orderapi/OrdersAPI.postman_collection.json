@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "4ce79d5a-ee08-4015-afa0-8cc53f1da5f5",
+		"name": "Orders API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32095543"
+	},
+	"item": [
+		{
+			"name": "localhost:1200/api/orders",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom1234",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"123456\",\n  \"items\": [\n    {\n      \"name\": \"Big Mac\",\n      \"price\": 5.99,\n      \"count\": 2\n    }\n  ],\n  \"total\": 14.47\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1200/api/orders",
+					"host": [
+						"localhost"
+					],
+					"port": "1200",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://veomcourse.com:5000/api/orders/user/989101",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom1234",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://veomcourse.com:5000/api/orders/user/989101",
+					"protocol": "https",
+					"host": [
+						"veomcourse",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"orders",
+						"user",
+						"989101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1200/cart/525799",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Big Mac\",\n  \"price\": 5.99,\n  \"count\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1200/cart/525799",
+					"host": [
+						"localhost"
+					],
+					"port": "1200",
+					"path": [
+						"cart",
+						"525799"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1200/cart/525799",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Big Mac\",\n  \"price\": 5.99,\n  \"count\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1200/cart/525799",
+					"host": [
+						"localhost"
+					],
+					"port": "1200",
+					"path": [
+						"cart",
+						"525799"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
