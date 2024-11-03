@@ -40,6 +40,13 @@ go mod tidy: Cleans up the go.mod file, removing any dependencies that are no lo
 go mod vendor: Copies dependencies into the vendor directory.
 
 go build <name of project>: Builds the Go project. Replace <name of project> with the actual name of your project.
+nohup node server.js > output.log 2>&1 &
+
+nohup ./orderexec > output.log 2>&1 &
+
+nohup ./productexec > output.log 2>&1 &
+
+nohup ./userexec > output.log 2>&1 &
 # Import API postman json in Postman
 Purpose: Postman is a popular API testing tool. This step involves importing a
 JSON file (presumably containing Postman requests and configurations) related to the Student API.
@@ -60,6 +67,6 @@ Upload Files: Transfer the built files to your server's designated folder for ho
 
 Configure Web Server: Set up your server (like Nginx or Apache) to serve the UI files and ensure proper routing.
 
-Set Up SSL: Use Cloudflare for managing DNS and SSL certificates, and ensure HTTPS is enabled for security.
+Set Up SSL: Use Certbot for managing DNS and SSL certificates, and ensure HTTPS is enabled for security.
 
 Test Deployment: Check your site to ensure everything is running smoothly and resolve any issues as needed.
