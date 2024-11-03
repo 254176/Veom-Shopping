@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "780cfc59-73e8-45e9-ba52-ad3eae0acd7e",
+		"name": "Product API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32095543"
+	},
+	"item": [
+		{
+			"name": "https://veomcourse.com:5000/api/menu-items",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom12",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Big Mac\",\n  \"calories\": 540,\n  \"price\": 5.99,\n  \"stock\": 2,\n  \"version\": 1\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://veomcourse.com:5000/api/menu-items",
+					"protocol": "https",
+					"host": [
+						"veomcourse",
+						"com"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"menu-items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://veomcourse.com:1200/api/menu-items",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom12",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://veomcourse.com:1200/api/menu-items",
+					"protocol": "http",
+					"host": [
+						"veomcourse",
+						"com"
+					],
+					"port": "1200",
+					"path": [
+						"api",
+						"menu-items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1200/api/items/stock",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom12",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Soda\",\n  \"stock\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1200/api/items/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "1200",
+					"path": [
+						"api",
+						"items",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:1200/api/items/stock",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Veom12",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "nemade777",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:1200/api/items/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "1200",
+					"path": [
+						"api",
+						"items",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
