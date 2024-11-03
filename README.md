@@ -20,7 +20,9 @@ docker stop mongo
 docker ps
 
 Configuration
-Database Name: UTDStudents
+
+Database Name: 
+
 Collection Name: Students
 
 # API deployment
