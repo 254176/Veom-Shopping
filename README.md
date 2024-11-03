@@ -23,7 +23,7 @@ Configuration
 Database Name: UTDStudents
 Collection Name: Students
 
-#API deployment
+# API deployment
 # Execute Go build commands
 go mod tidy
 
