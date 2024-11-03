@@ -1,4 +1,4 @@
-#Mongodb deployment:
+# Mongodb deployment:
 
 Purpose: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format. It's commonly used in web development to store and manage data.
 Installation: The installation process involves downloading and installing the MongoDB server on your machine. Depending on your operating system, the steps might vary.
@@ -44,7 +44,7 @@ Steps: Open the imported collection in Postman, select the appropriate request (
 and execute it against the Student API. Verify that the API behaves as expected,
 interacting with the MongoDB database to perform the CRUD operations on student records.
 
-#UI deployment:
+# UI deployment:
 Build the UI: Generate a production-ready version of your site using your chosen framework or tool.
 Upload Files: Transfer the built files to your server's designated folder for hosting.
 Configure Web Server: Set up your server (like Nginx or Apache) to serve the UI files and ensure proper routing.
