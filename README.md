@@ -46,7 +46,11 @@ interacting with the MongoDB database to perform the CRUD operations on student 
 
 # UI deployment:
 Build the UI: Generate a production-ready version of your site using your chosen framework or tool.
+
 Upload Files: Transfer the built files to your server's designated folder for hosting.
+
 Configure Web Server: Set up your server (like Nginx or Apache) to serve the UI files and ensure proper routing.
+
 Set Up SSL: Use Cloudflare for managing DNS and SSL certificates, and ensure HTTPS is enabled for security.
+
 Test Deployment: Check your site to ensure everything is running smoothly and resolve any issues as needed.
