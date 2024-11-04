@@ -70,3 +70,8 @@ Configure Web Server: Set up your server (like Nginx or Apache) to serve the UI 
 Set Up SSL: Use Certbot for managing DNS and SSL certificates, and ensure HTTPS is enabled for security.
 
 Test Deployment: Check your site to ensure everything is running smoothly and resolve any issues as needed.
+
+# Topology:
+![updated_architecture_diagram](https://github.com/user-attachments/assets/eaa5bf0d-390b-47fc-9d98-163e10b57644)
+
+
